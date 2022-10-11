@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning</title>
+
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 500px;
+        }
+
+        td {
+            border: 2px solid black;
+        }
+
+        th {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Planning des tâches par équipe</caption>
+        <!--Ligne 1-->
+        <thead>
+            <tr>
+                <th rowspan="2">Equipes</th>
+                <th colspan="6">Janvier</th>
+                <th rowspan="2"></th>
+            </tr>
+            <!--Ligne 2-->
+            <tr>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th colspan="2">Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!--Ligne 3-->
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="4">Tache1</td>
+                <td colspan="2">Tache2</td>
+                <td rowspan="2">Semaine 1</td>
+            </tr>
+            <!--Ligne 4-->
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tache1</td>
+                <td colspan="3">Tache2</td>
+            </tr>
+            <!--Ligne 5-->
+            <tr>
+                <td>Equipe 1</td>
+                <td>Tache3</td>
+                <td colspan="4">Tache4</td>
+                <td>Tache 5</td>
+                <td rowspan="2">Semaine 2</td>
+            </tr>
+            <!--Ligne 6-->
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="2">Tache3</td>
+                <td colspan="4">Tache4</td>
+            </tr>
+            <!--Ligne 7-->
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="3">Tache5</td>
+                <td colspan="3">Tache6</td>
+                <td rowspan="2">Semaine 3</td>
+            </tr>
+            <!--Ligne 8-->
+            <tr>
+                <td>Equipe 2</td>
+                <td>Tache5</td>
+                <td colspan="5">Tache6</td>
+            </tr>
+            <!--Ligne 9-->
+            <tr>
+                <td>Equipe 1</td>
+                <td colspan="4">Tache7</td>
+                <td colspan="2">Tache8</td>
+                <td rowspan="2">Semaine 4</td>
+            </tr>
+            <!--Ligne 10-->
+            <tr>
+                <td>Equipe 2</td>
+                <td colspan="3">Tache7</td>
+                <td colspan="3">Tache8</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
